@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: poppins, sans-serif;
+    box-sizing: border-box;
+}
+body{
+    background: #222;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.card{
+    width: 90%;
+    max-width: 475px;
+background: linear-gradient(135deg, #00feba, #5b548a);
+color: #fff;
+border-radius: 20px;
+padding: 40px 35px;
+text-align: center;
+    margin: 24px auto;
+}
+.search{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.search input{
+    border: 0;
+    outline: none;
+    background: #ebfffc;
+    color: #555;
+    padding: 10px 25px;
+    height: 60px;
+    border-radius: 30px;
+    flex: 1;
+    margin-right: 16px;
+    font-size: 18px;
+}
+.search button{
+    border: 0;
+    outline: none;
+    background: #ebfffc;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    cursor: pointer;
+}
+.search button img{
+    width: 24px;
+    height: auto;
+}
+.weather-icon{
+    width: 150px;
+    margin: 30px auto 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.weather h1 {
+    font-size: 64px;
+    font-weight: 500;
+    margin-top: -10px;
+}
+.weather h2 {
+    font-size: 45px;
+    font-weight: 400;
+    margin-top: -10px;
+}
+.details{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 12px;
+    padding: 0 20px;
+    margin-top: 50px;
+}
+.col{
+    display: flex;
+    align-items: center;
+    text-align: left;
+    flex: 1;
+    justify-content: flex-start;
+}
+.col img{
+    width: 40px;
+    margin-right: 10px;
+}
+.details .col.humidity {
+    justify-content: flex-start;
+    text-align: left;
+}
+.details .col.temp {
+    justify-content: center;
+    text-align: center;
+}
+.details .col.wind {
+    justify-content: flex-end;
+    text-align: right;
+}
+
+.details .col:nth-child(1) {
+    justify-content: flex-start;
+    text-align: left;
+}
+.details .col:nth-child(2) {
+    justify-content: center;
+    text-align: center;
+}
+.details .col:nth-child(3) {
+    justify-content: flex-end;
+    text-align: right;
+}
